@@ -1,0 +1,23 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "first backend project ",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkhmaevM/http-server.git"
+  },
+  "author": "Magomed Akhmaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkhmaevM/http-server/issues"
+  },
+  "homepage": "https://github.com/AkhmaevM/http-server#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
